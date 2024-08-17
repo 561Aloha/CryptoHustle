@@ -5,6 +5,8 @@
 
 This project is a simple cryptocurrency price tracker that displays real-time information for Bitcoin. It fetches data from the CryptoCompare API and displays various details about Bitcoin, including its price, market cap, launch date, and more. This application was built using React and React Router.
 
+## Video Walkthrough
+
 ## Features
 
 - **Real-time Price Updates**: Get the latest price for Bitcoin in USD.
@@ -26,14 +28,13 @@ To run this project locally, follow the steps below:
 
 - Node.js (version 14 or later)
 - npm (or yarn)
-
-### Installation
+```
 
 1. Clone the repository:
 
    ```bash
    git clone https://github.com/561Aloha/bitcoin-price-tracker.git
-   ```
+   ``````
 
 2. Navigate to the project directory:
 
