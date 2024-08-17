@@ -1,4 +1,4 @@
-Here’s a sample `README.md` for your project:
+
 
 ```markdown
 # Bitcoin Price Tracker
