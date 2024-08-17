@@ -1,5 +1,6 @@
-# CryptoHustle
+Here’s a sample `README.md` for your project:
 
+```markdown
 # Bitcoin Price Tracker
 
 This project is a simple cryptocurrency price tracker that displays real-time information for Bitcoin. It fetches data from the CryptoCompare API and displays various details about Bitcoin, including its price, market cap, launch date, and more. This application was built using React and React Router.
@@ -32,26 +33,42 @@ To run this project locally, follow the steps below:
 
    ```bash
    git clone https://github.com/561Aloha/bitcoin-price-tracker.git
+   ```
 
-
-
-
-1. Clone the repository:
+2. Navigate to the project directory:
 
    ```bash
-   git clone https://github.com/561Aloha/bitcoin-price-tracker.git
-Navigate to the project directory:
+   cd bitcoin-price-tracker
+   ```
 
-cd bitcoin-price-tracker 
-npm install
-npm run dev
+3. Install the required dependencies:
 
-Usage
-The homepage lists Bitcoin with its current price.
+   ```bash
+   npm install
+   ```
 
-Clicking on Bitcoin will take you to a detailed page with more information, including market cap, algorithm, whitepaper link, and more.
+4. Create a `.env` file in the root of the project and add your CryptoCompare API key:
 
-Folder Structure
+   ```bash
+   VITE_APP_API_KEY=your_api_key_here
+   ```
+
+5. Run the application:
+
+   ```bash
+   npm run dev
+   ```
+
+6. Open your browser and visit `http://localhost:3000`.
+
+## Usage
+
+- The homepage lists Bitcoin with its current price.
+- Clicking on Bitcoin will take you to a detailed page with more information, including market cap, algorithm, whitepaper link, and more.
+
+## Folder Structure
+
+```
 ├── src
 │   ├── components
 │   │   ├── CoinInfo.jsx
@@ -64,3 +81,17 @@ Folder Structure
 ├── public
 │   └── index.html
 └── package.json
+```
+
+## API Used
+
+- **CryptoCompare API**: Provides real-time cryptocurrency prices and metadata.
+
+For more details, visit [CryptoCompare API documentation](https://min-api.cryptocompare.com/).
+
+## License
+
+This project is licensed under the MIT License.
+```
+
+Feel free to customize the content as needed!
