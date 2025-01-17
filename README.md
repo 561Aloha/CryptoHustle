@@ -48,19 +48,12 @@ To run this project locally, follow the steps below:
    npm install
    ```
 
-4. Create a `.env` file in the root of the project and add your CryptoCompare API key:
 
-   ```bash
-   VITE_APP_API_KEY=your_api_key_here
-   ```
-
-5. Run the application:
+4. Run the application:
 
    ```bash
    npm run dev
    ```
-
-6. Open your browser and visit `http://localhost:3000`.
 
 ## Usage
 
