@@ -29,26 +29,6 @@ To run this project locally, follow the steps below:
 - Node.js (version 14 or later)
 - npm (or yarn)
 ```
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/561Aloha/bitcoin-price-tracker.git
-   ``````
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd bitcoin-price-tracker
-   ```
-
-3. Install the required dependencies:
-
-   ```bash
-   npm install
-   ```
-
-
 4. Run the application:
 
    ```bash
