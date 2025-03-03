@@ -1,0 +1,164 @@
+
+
+/* Top Cryptos */
+.crypto-container{
+    width: 80%;
+    position: relative; /* Ensures content is above blobs */
+    margin: 0 auto;
+    z-index: 10; /* Higher than blobs */
+    border-radius: 40px;
+    background: rgb(54, 54, 54, .7);
+    box-shadow:  -5px -5px 14px #838383,
+                 5px 5px 14px #535353;
+}
+
+.crypto-container h2{
+    font-size: 30px;
+}
+.crypto-container li{
+    margin-left: -20px;
+}
+.crypto-container ul,.row{
+    text-decoration: none;
+    list-style: none;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+li h3{
+    color:white;
+    width: 300px;
+}
+.row{
+    font-size: 30px;
+}
+.crypto-container li , .row{
+    display: flex;
+    justify-content: space-between;
+
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.box-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: auto auto;     
+    gap: 10px;                        
+    border: 1px solid #ccc;            
+    position: relative; 
+  }
+  .image-box {
+    grid-column: 1; /* Image takes up the first column */
+    grid-row: span 2; /* Image spans two rows */
+    width: 100%;      /* Optional: make image fill the cell */
+    height: auto;     /* Maintain aspect ratio */
+    object-fit: cover; /* Optional: crop to fit the cell without distortion */
+  }
+  
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    
+    font-size: 20px;
+  }
+  
+.linechart-container{
+  margin-top: 70px;
+  padding-top: 30px;
+  background-color: rgb(26, 46, 54);
+  border-radius: 12px;
+  width: 70%;
+}
+
+.hello{
+  width: 50%;
+}
+
+nav {
+  background: #faf9f9;
+  width: 80%;
+  text-align: center;
+  display: flex;
+  flex-direction: row; 
+  border-radius: 40px;
+  justify-content: space-between; 
+  z-index: 10; 
+  margin-top: 10px;
+  background-color: rgb(239, 246, 246);
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.container{
+  margin-top: 40px;
+  width: 75%;
+}
+@media (max-width:800px) {
+  .container li , .row{
+    font-size: 1rem;
+}
+ul h3{
+  color:black;
+  font-size: .9rem;
+}
+
+  
+}
+.crypto-container {
+  width: 80%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  padding: 12px;
+  border-bottom: 2px solid #ddd;
+}
+
+.crypto-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.crypto-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.crypto-info {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.crypto-price, .crypto-market-cap {
+  flex: 1;
+  text-align: right;
+}
+
+h3, h5 {
+  margin: 0;
+  font-size: 16px;
+}
+
+
+.crypto-price{
+  text-align: center;
+  width: 400px;
+}
+
+.crypto-container{
+  margin-top: 40px;
+}

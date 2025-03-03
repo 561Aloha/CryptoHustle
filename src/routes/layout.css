@@ -1,0 +1,170 @@
+
+
+
+.blob-container {
+    width: 60%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;  
+    z-index: 1;
+  }
+  
+  .blob-container:after {
+    content: '';
+    width: 100%;
+    height: 100vh;
+    background: url('https://i.imgur.com/PsjPzdO.png');
+    background-size: 200px;
+    mix-blend-mode: overlay;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .blobs {
+    width: 100vh;
+    height: 40vh;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* filter: contrast(30); Uncomment this if needed */
+  }
+  
+  .blob {
+    width: 50%;
+    height: 100%;
+    border-radius: 100%;
+    position: absolute;
+    background-color: #2ea3de;
+    mix-blend-mode: multiply;
+    filter: blur(80px);
+  }
+  
+  .blob.a {
+    background-color: #f0ebe8; /* Manually mixed color */
+    animation: circular2 40s linear infinite;
+  }
+  
+  .blob.b {
+    background-color: #4dffe7; /* Manually mixed color */
+    animation: circular 20s linear infinite;
+  }
+  
+  .blob.c {
+    animation: circular 60s linear infinite;
+  }
+  
+  @keyframes circular {
+    0% {
+      transform: translate(0, -75px);
+    }
+    25% {
+      transform: translate(150px, 0);
+    }
+    50% {
+      transform: translate(0, 75px);
+    }
+    75% {
+      transform: translate(-150px, 0);
+    }
+    100% {
+      transform: translate(0, -50px);
+    }
+  }
+  
+  @keyframes circular2 {
+    0% {
+      transform: translate(0, 100px);
+    }
+    25% {
+      transform: translate(-150px, 0);
+    }
+    50% {
+      transform: translate(0, -100px);
+    }
+    75% {
+      transform: translate(150px, 0);
+    }
+    100% {
+      transform: translate(0, 100px);
+    }
+  }
+  
+  
+  .blobs-2 {
+    width: 30vh;
+
+    height: 30vh;
+    display: block;
+    position: absolute;
+    top: 50%; 
+    right: 5%; 
+    transform: translateY(-80%); /* Center the blob vertically */
+  }
+  
+  .blob-container{
+    position: fixed; 
+    top: 0;
+    left: 0;
+    height: 100%;
+    pointer-events: none; 
+    z-index: 0;
+  }
+  .blobs-2{
+    position: fixed;
+    height: 40%;
+    padding: 0;
+    z-index: 2;
+  }
+  
+
+  @media (max-width: 1000px) {
+    .blob-container {
+      padding: 0;
+      width: 100%; /* Make it take up more width on smaller screens */
+      height: 100vh; /* Reduce height */
+    }
+
+    .blobs-2 {
+      width: 20vw;
+      padding: 0;
+      height: 15vw;
+      z-index:2;
+    }
+  }
+  
+  
+
+  /* Search Bar Styling */
+  
+  
+  .adiv {
+    position: relative;
+    z-index: 20;
+  }
+  nav {
+    position: relative; /* Makes z-index take effect */
+    z-index: 30; /* Higher than blobs and .adiv */
+    background: rgba(240, 240, 240, 0.2); /* Semi-transparent so blobs are slightly visible */
+  }
+
+.adiv ul{
+    list-style:  none;
+    display: contents;
+    justify-content: space-between;
+    width: 80%;
+}
+
+
+.adiv li{
+    width: 60%;
+    font-size: 1.2rem;
+}
+@media (max-width:700px) {
+  .adiv li{
+    width: 60%;
+    font-size: .9rem;
+}
+}

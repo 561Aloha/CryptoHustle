@@ -1,0 +1,44 @@
+
+
+
+.search-container {
+  position: relative; /* Ensure z-index works */
+  z-index: 10; /* Higher than other elements */
+}
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.whole-page {
+
+  position: relative; /* Ensures it is above the blobs */
+  z-index: 10; /* Higher than blobs */
+  text-align: center;
+  color: white;
+  padding-top: 40px; /* Adjust padding as needed */
+}
+
+.hustle-intro{
+  padding: 50px 100px  50px 100px ;
+  width: 63%;
+  margin: 0 auto;
+  border: 1px white dashed;
+  border-radius: 40px;
+}
+
+@media (max-width:700px) {
+
+.whole-page {
+  padding-top: 20px; 
+}
+  .hustle-intro{
+    padding: 50px;
+    padding-top: 30px;
+    background-color: rgb(37, 38, 37, .3);
+  }
+}

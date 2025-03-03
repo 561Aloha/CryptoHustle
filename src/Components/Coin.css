@@ -1,0 +1,182 @@
+/* Coin.css */
+
+/* General Body Styling */
+
+
+
+/* Coin List Item Styling */
+.main-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #bec2e0;
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 10px;
+    list-style-type: none;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  .main-list:hover {
+    background-color: #ffffff;
+    transform: scale(1.02);
+  }
+  
+  .icons {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+  }
+  
+  /* Coin Details Link */
+  .main-list a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Tab-like spacing between name and price */
+  .tab {
+    display: inline-block;
+    width: 20px;
+  }
+  
+  /* Coin Price Styling */
+  .coin-price {
+    font-size: 1.2rem;
+    color: #e0e0e0;
+    text-align: right;
+    width: 100px;
+  }
+  /* Divider between coin items */
+  .main-list {
+    border-bottom: 1px solid #666;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Last coin item without a bottom border */
+  .main-list:last-child {
+    border-bottom: none;
+  }
+  /* Coin Link Styling */
+  .coin-link {
+    color: #f2f2f2;
+    text-decoration: none;
+  
+  }
+  
+  /* Coin Price Styling */
+  .coin-price {
+    font-size: 1.2rem;
+    text-align: right;
+    width: 150px;
+    color: black;
+  }
+  
+  /* Divider Styling */
+  .main-list {
+    border-bottom: 1px solid #666;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .main-list:last-child {
+    border-bottom: none;}
+  
+  .container th{
+    text-align: left;
+  }
+  .container{
+    background-color:#333333;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .container table{
+    background-color:#d5ffe5;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 700px;
+    color: #333;
+  }
+  
+  
+  .descript{
+    width: 80%;
+    margin: 0 auto;
+  }  
+.crypto-list{
+  background-color: #bec2e0;
+  width: 80%;
+  margin: 0 auto;
+}
+.title-container{
+  background-color: #0c100d;
+
+}
+table{
+  background-color: #bec2e0;
+  margin: 0 auto;
+  width: 80%;
+  border: #333333 solid;
+  z-index: 10;
+}
+
+.crypto-list h1{
+  font-size: 2rem;
+}
+/* Search Bar Styling */
+.search-container input[type="text"] {
+  width: 50vw;
+  height: 30px;
+  padding: 10px;
+  padding-left: 40px;
+  border: 2px solid #ffffff;
+  border-radius: 40px;
+  font-size: 1.2rem;
+  background-color: #a14e4e;
+  color: rgb(0, 0, 0);
+  margin-bottom: 30px;
+  text-align:left;
+  display: flex;
+  justify-content: center;
+
+}
+
+.crypto-list{
+  width: 80%;
+  position: relative; /* Ensures content is above blobs */
+  margin: 0 auto;
+  z-index: 10; /* Higher than blobs */
+  border-radius: 40px;
+  background: rgb(54, 54, 54, .7);
+  box-shadow:  -5px -5px 14px #838383,
+               5px 5px 14px #535353;
+}
+
+.crypto-list h2{
+  font-size: 30px;
+}
+.crypto-list li{
+  margin-left: -20px;
+}
+.crypto-list ul,.row{
+  text-decoration: none;
+  list-style: none;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.search-container{
+  display: flex;
+  justify-content: center;
+}
+.crypto-list h1{
+  display: flex;
+  justify-content: center;
+}
