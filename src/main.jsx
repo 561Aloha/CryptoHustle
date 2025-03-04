@@ -4,6 +4,7 @@ import './index.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Layout from './routes/layout';
 import DetailView from './routes/DetailView';
+
 import CoinInfo from "./Components/CoinInfo.jsx";
 import TopCryptos from "./routes/TopCryptos.jsx";
 import CryptoLineChart from "./routes/CryptoLineChart.jsx";
@@ -20,7 +21,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
           {/* Other Routes */}
           <Route path="/topcryptos" element={<TopCryptos />} />
-          <Route path="/all" element={<CoinInfo />} />
+          <Route path="/all" element={<CoinInfo/>} />
           <Route path="/stats" element={<CryptoLineChart />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/coinDetails/:symbol" element={<DetailView />} />

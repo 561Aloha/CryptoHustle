@@ -15,7 +15,6 @@
 
 
 .whole-page {
-
   position: relative; /* Ensures it is above the blobs */
   z-index: 10; /* Higher than blobs */
   text-align: center;

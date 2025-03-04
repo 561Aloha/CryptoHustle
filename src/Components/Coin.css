@@ -2,8 +2,6 @@
 
 /* General Body Styling */
 
-
-
 /* Coin List Item Styling */
 .main-list {
     display: flex;
@@ -104,8 +102,7 @@
     width: 700px;
     color: #333;
   }
-  
-  
+
   .descript{
     width: 80%;
     margin: 0 auto;
@@ -131,21 +128,20 @@ table{
   font-size: 2rem;
 }
 /* Search Bar Styling */
-.search-container input[type="text"] {
-  width: 50vw;
+.coin-container input[type="text"] {
+  width: 30vw;
   height: 30px;
   padding: 10px;
   padding-left: 40px;
   border: 2px solid #ffffff;
   border-radius: 40px;
   font-size: 1.2rem;
-  background-color: #a14e4e;
   color: rgb(0, 0, 0);
-  margin-bottom: 30px;
   text-align:left;
   display: flex;
   justify-content: center;
-
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .crypto-list{
@@ -172,11 +168,36 @@ table{
   margin: 0 auto;
 }
 
-.search-container{
-  display: flex;
-  justify-content: center;
-}
+
 .crypto-list h1{
   display: flex;
   justify-content: center;
+}
+.container, .coin-container{
+  z-index: 20;
+  position: relative;  
+  margin: 0 auto;
+  width:80vw;
+  margin-top: 40px;
+  padding: 40px;
+  border-radius: 40px;
+  background: rgba(37, 39, 52, 0.7);
+}
+
+
+
+.images{
+  width: 100px;
+  height: 100px;
+}
+.together{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+}
+
+.together h1{
+  margin-left: 10px;
 }

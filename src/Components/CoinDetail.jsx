@@ -43,17 +43,22 @@ const CoinDetail = () => {
 
   return (
     <div className="container">
-      <h1>{fullDetails.textData[symbol].FullName}</h1>
-      <img className="images"
+      <div className="together">
+        <img className="images"
         src={`https://www.cryptocompare.com${
           fullDetails.numbers[symbol]?.USD?.IMAGEURL || "" }`}
         alt={`Small icon for ${symbol} crypto coin`} />
-      <div className="descript">{fullDetails.textData[symbol].Description}</div>
-      <br />
+              <h1>{fullDetails.textData[symbol].FullName}</h1></div>
+
+      <div className="descript">{fullDetails.textData[symbol].Description}
       <div>
+        <br/>
         This coin was built with the algorithm{" "}
         {fullDetails.textData[symbol].Algorithm}{" "}
       </div>
+      </div>
+      <br />
+
       <table>
         <tbody>
           <tr>
