@@ -45,10 +45,12 @@ const TopCryptos = () => {
 
   return (
     <div className="crypto-container">
+
+<h2>Here is a list of trending crypto currencies</h2>   
       <div className="row">
-        <h3>Crypto Name</h3>
-        <h3>Price</h3>
-        <h3>Market Cap</h3>
+        <h3 className="crypto_name">Crypto Name</h3>
+        <h3 className="crypto_price">Price</h3>
+        <h3 className="crypto_market">Market Cap</h3>
       </div>
       {loading ? (
         <p>Loading...</p>

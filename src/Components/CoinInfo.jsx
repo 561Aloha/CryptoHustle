@@ -41,6 +41,8 @@ const CoinList = () => {
 
   return (
     <div className="coin-container">
+      <h2>Search all cryptocurrencies</h2>
+      <h3>You can click any of them for more details</h3>
       {/* Search Bar */}
       <input
         type="text"

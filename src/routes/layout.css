@@ -1,6 +1,6 @@
-
-
-
+.blob, .blobs, .blob-container:after, .blobs-2  {
+  position: absolute;
+}
 .blob-container {
     width: 60%;
     height: 100vh;
@@ -8,7 +8,7 @@
     position: relative;  
     z-index: 1;
   }
-  
+
   .blob-container:after {
     content: '';
     width: 100%;
@@ -16,7 +16,6 @@
     background: url('https://i.imgur.com/PsjPzdO.png');
     background-size: 200px;
     mix-blend-mode: overlay;
-    position: absolute;
     top: 0;
     left: 0;
   }
@@ -25,18 +24,16 @@
     width: 100vh;
     height: 40vh;
     display: block;
-    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     /* filter: contrast(30); Uncomment this if needed */
   }
-  
+
   .blob {
     width: 50%;
     height: 100%;
     border-radius: 100%;
-    position: absolute;
     background-color: #2ea3de;
     mix-blend-mode: multiply;
     filter: blur(80px);
@@ -95,10 +92,8 @@
   
   .blobs-2 {
     width: 30vh;
-
     height: 30vh;
     display: block;
-    position: absolute;
     top: 50%; 
     right: 5%; 
     transform: translateY(-80%); /* Center the blob vertically */
@@ -135,20 +130,16 @@
     }
   }
   
-  
-
-  /* Search Bar Styling */
-  
-  
-  .adiv {
-    position: relative;
-    z-index: 20;
+/* Search Bar Styling */
+.adiv {
+  position: relative;
+  z-index: 20;
   }
-  nav {
-    position: relative; /* Makes z-index take effect */
-    z-index: 30; /* Higher than blobs and .adiv */
+nav {
+  position: relative; /* Makes z-index take effect */
+  z-index: 30; /* Higher than blobs and .adiv */
     background: rgba(240, 240, 240, 0.2); /* Semi-transparent so blobs are slightly visible */
-  }
+}
 
 .adiv ul{
     list-style:  none;
@@ -156,8 +147,6 @@
     justify-content: space-between;
     width: 80%;
 }
-
-
 .adiv li{
     width: 60%;
     font-size: 1.2rem;

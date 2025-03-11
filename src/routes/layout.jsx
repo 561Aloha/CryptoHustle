@@ -26,9 +26,7 @@ const Layout = () => {
           <li>
             <NavLink to="/all">All Cryptos</NavLink>
           </li>
-          <li>
-            <NavLink to="/faq">This Project</NavLink>
-          </li>
+
         </ul>
       </nav>
 
