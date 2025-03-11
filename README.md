@@ -1,4 +1,6 @@
-View the live demostration at cryptocapitol.netlify.app
+<img width="1411" alt="Screenshot 2025-03-10 at 1 29 14 PM" src="https://github.com/user-attachments/assets/ce80f941-b559-4e4a-a9ac-d4102a6d5b68" />View the live demostration at cryptocapitol.netlify.app
+
+![CryptoHustle Logo](https://imgur.com/a/dzlvMfU) 
 
 ## 🚀 About CryptoHustle
 CryptoHustle is a cutting-edge platform designed for crypto enthusiasts, traders, and investors who want to stay ahead of the game. Whether you're tracking real-time market prices, 
