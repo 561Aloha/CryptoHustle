@@ -6,13 +6,12 @@
     z-index: 10; /* Higher than blobs */
     border-radius: 40px;
     background: rgb(54, 54, 54, .7);
-    box-shadow:  -5px -5px 14px #838383,
-                 5px 5px 14px #535353;
+    box-shadow:  -5px 5px 4px #595959,
+                 5px 5px 8px #333333;
 }
 .crypto-info, .crypto-item, .row, .crypto-container li  {
   display: flex;
 }
-
 .crypto-container h2, .row{
   font-size: 30px;
 }
@@ -146,10 +145,20 @@ margin: 0 auto;
   margin-right: 20px;
 }
 @media (max-width:800px){
+
+  .crypto-info h3{
+    font-size: 14px;
+  }
+  .crypto-info h5{
+    color:rgb(156, 156, 156);
+    font-size: 12px;
+  }
+  .crypto-list li{
+    width:85%;
+  }
   .crypto-container h2{
     padding: 10px;
-  }  
-
+  }
   .crypto_name{
     width: calc((100% / 3) - 20px + (20px / 3));
     }
@@ -164,4 +173,27 @@ margin: 0 auto;
     text-align: center;
   }
 
+  .open-source button{
+    background-color: rgb(48, 59, 59);
+    width: 70%;
+    margin: 5px;
+  }
+  .crypto-container h2{
+    font-size: 20px;
+    padding: 20px;
+  }
+  .row{
+    font-size: 20px;
+    padding:5px;
+    margin: 0 auto;
+    width:90%;
+   }
+   .row h3{
+    font-weight: 500;
+    font-size: 14px;
+   }
+
+   .crypto-container{
+    padding-bottom:40px;
+   }
 }

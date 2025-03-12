@@ -68,13 +68,6 @@ const TopCryptos = () => {
           ))}
         </ul>
       )}
-      {/* <div className="box-container">
-        <img className="image-box" src="./src/assets/computer.jpeg" alt="computer" />
-        <div className="box" src="./src/assets/computer.jpeg">Box 1</div>
-        <div className="box" src="./src/assets/computer.jpeg">Box 2</div>
-        <div className="box" src="./src/assets/computer.jpeg">Box 3</div>
-        <div className="box" src="./src/assets/computer.jpeg">Box 4</div>
-      </div> */}
     </div>
   );
 };
