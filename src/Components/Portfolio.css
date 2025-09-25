@@ -1,0 +1,223 @@
+/* Basic Portfolio Styles */
+.portfolio-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  z-index: 100;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+.portfolio-header {
+  display: flex;
+  z-index: 100;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.portfolio-header h2 {
+  z-index: 100;
+  position: relative;
+}
+
+.add-holding-btn {
+  background-color: #007bff;
+  color: white; 
+  z-index: 100;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  position: relative;
+}
+
+.add-holding-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Portfolio Summary Cards */
+.portfolio-summary {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  z-index: 100;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.summary-card {
+  z-index: 100;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.portfolio-value {
+  font-size: 2em;
+  z-index: 100;
+  font-weight: bold;
+  margin: 10px 0;
+  position: relative;
+}
+
+.portfolio-initial {
+  z-index: 100;
+  position: relative;
+}
+
+.profit-loss.profit {
+  color: #28a745;
+}
+
+.profit-loss.loss {
+  color: #dc3545;
+}
+
+.profit-loss h3 {
+  z-index: 100;
+  position: relative;
+}
+
+.empty-portfolio {
+  z-index: 100;
+  position: relative;
+}
+
+/* Holdings Table */
+.holdings-list {
+  border-radius: 8px;
+  z-index: 100;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+
+  background-color: rgb(0, 0, 0, .5);
+  position: relative;
+}
+
+.holdings-header {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1.5fr 1fr;
+  gap: 15px;
+  padding: 15px 20px;
+  background-color: rgb(0, 0, 0, .6);
+  font-weight: bold;
+  border-bottom: 2px solid #dee2e6;
+  z-index: 100;
+  position: relative;
+}
+
+.holding-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1.5fr 1fr;
+  gap: 15px;
+  padding: 15px 20px;
+  border-bottom: 1px solid #eee;
+  align-items: center;
+  z-index: 100;
+  background-color: transparent ;
+  position: relative;
+}
+
+.holding-row:hover {
+  
+  background-color: rgb(0, 0, 0);
+}
+
+.crypto-info {
+  z-index: 100;
+  position: relative;
+}
+
+.remove-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  z-index: 100;
+  position: relative;
+}
+
+.remove-btn:hover {
+  background-color: #c82333;
+}
+
+/* Add Form */
+.add-holding-form {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  z-index: 100;
+  color:black;
+  position: relative;
+}
+
+.form-group {
+  display: grid;
+  z-index: 100;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 15px;
+  color:black;
+  position: relative;
+}
+
+.form-group label, 
+.form-group input {
+  z-index: 100;
+  position: relative;
+    color:black;
+}
+
+.form-group input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color:black;
+  font-size: 16px;
+}
+
+.save-holding-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  z-index: 100;
+  position: relative;
+}
+
+.save-holding-btn:hover {
+  background-color: #218838;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .portfolio-summary {
+    grid-template-columns: 1fr;
+  }
+  
+  .form-group {
+    grid-template-columns: 1fr;
+  }
+  
+  .holdings-header,
+  .holding-row {
+    z-index: 100;
+    grid-template-columns: 1fr;
+    text-align: left;
+    position: relative;
+  }
+}

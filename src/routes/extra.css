@@ -11,6 +11,7 @@
 }
 .crypto-info, .crypto-item, .row, .crypto-container li  {
   display: flex;
+      z-index: 10; /
 }
 .crypto-container h2, .row{
   font-size: 30px;
@@ -35,6 +36,7 @@
   justify-content: space-between;
   align-items: self-end;
   width: 80%;
+   z-index: 10; 
   margin: 0 auto;
 }
 
@@ -57,6 +59,7 @@ li h3{
   justify-content: space-between;
   font-weight: bold;
   padding: 12px;
+  z-index: 10;
   border-bottom: 2px solid #ddd;
 }
 

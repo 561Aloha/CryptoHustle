@@ -26,6 +26,9 @@ const Layout = () => {
           <li>
             <NavLink to="/all">All Cryptos</NavLink>
           </li>
+          <li>
+            <NavLink to="/portfolio">Portfolio</NavLink>
+          </li>
 
         </ul>
       </nav>

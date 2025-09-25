@@ -10,6 +10,8 @@ import TopCryptos from "./routes/TopCryptos.jsx";
 import CryptoLineChart from "./routes/CryptoLineChart.jsx";
 import FAQ from "./routes/FAQ.jsx";
 import App from "./App.jsx"; // Import App.jsx
+import Portfolio from './Components/Portfolio';
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -25,6 +27,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="/stats" element={<CryptoLineChart />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/coinDetails/:symbol" element={<DetailView />} />
+          <Route path="/portfolio" element={<Portfolio />} />
         </Route>
       </Routes>
     </BrowserRouter>
